@@ -93,3 +93,7 @@ UPDATE movies
 ## Extension
 
 1.  Research how to delete multiple entries from your table in a single command.
+```SQL
+DELETE FROM movies WHERE id BETWEEN 1 AND 10:
+DELETE FROM people WHERE name IN ('Kieran Marshall', 'Harvey Wheaton')
+```
